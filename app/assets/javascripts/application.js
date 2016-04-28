@@ -12,5 +12,12 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.placeholder
 //= require turbolinks
 //= require_tree .
+
+
+
+jQuery(document).ready(function($) {
+$(document).foundation();
+});
